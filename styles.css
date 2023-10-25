@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.calculator {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 4px black;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+}
