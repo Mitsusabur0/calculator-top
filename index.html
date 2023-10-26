@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Calculator</title>
 </head>
@@ -11,17 +11,17 @@
     <div class="container">
         <div class="calculator">
             <h1>Calculator</h1>
-            <input class="screen" placeholder="Operation">
+            <input id="screen" class="screen" placeholder="Operation">
             <div class="operators-container">
-                <button class="function-button">clear</button>
-                <button class="function-button">delete</button>
+                <button class="function-button clear">clear</button>
+                <button class="function-button backspace">delete</button>
                 <button class="function-button" style="font-size: 20px">=</button>
             </div>
             <div class="operators-container">
-                <button class="operator-button">+</button>
-                <button class="operator-button">-</button>
-                <button class="operator-button">*</button>
-                <button class="operator-button">/</button>
+                <button class="num-button">+</button>
+                <button class="num-button">-</button>
+                <button class="num-button">*</button>
+                <button class="num-button">/</button>
             </div>
 
             <div class="buttons-container">
